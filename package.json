@@ -4,11 +4,11 @@
   "description": "CLI for StartTheLanding - pull, push, and publish pages locally",
   "keywords": ["startthelanding", "cli", "landing-page"],
   "license": "MIT",
-  "author": "StartTheLanding",
+  "author": "Sanswork",
   "homepage": "https://startthelanding.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/startthelanding/cli.git"
+    "url": "https://github.com/sanswork/stl_cli.git"
   },
   "bin": {
     "stl": "./bin/stl.js"
