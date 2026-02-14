@@ -1,0 +1,27 @@
+{
+  "name": "@startthelanding/cli",
+  "version": "1.0.0",
+  "description": "CLI for StartTheLanding - pull, push, and publish pages locally",
+  "keywords": ["startthelanding", "cli", "landing-page"],
+  "license": "MIT",
+  "author": "StartTheLanding",
+  "homepage": "https://startthelanding.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/startthelanding/cli.git"
+  },
+  "bin": {
+    "stl": "./bin/stl.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
